@@ -1,0 +1,30 @@
+# Render Blueprint: free web service (512 MB RAM) running the lite build.
+# Lite build = requirements.txt: no PyTorch / Sentence-Transformer, ONNX disease model,
+# keyword search, no model training at build or startup.
+# Measured: ~233 MB after startup, 364 MB peak under 8-16 parallel requests (flat over 1,800 requests).
+services:
+  - type: web
+    name: agrimind-ai
+    runtime: python
+    plan: free
+    rootDir: backend
+    buildCommand: pip install --no-cache-dir -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT --workers 1
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.18
+      - key: AGRIMIND_LITE
+        value: "1"
+      - key: EMBEDDING_BACKEND
+        value: tfidf
+      - key: MALLOC_ARENA_MAX
+        value: "2"
+      - key: ONNX_THREADS
+        value: "1"
+      - key: OMP_NUM_THREADS
+        value: "1"
+      - key: XAI_API_KEY
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true

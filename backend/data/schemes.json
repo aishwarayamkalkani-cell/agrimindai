@@ -1,0 +1,135 @@
+{
+  "last_verified": "2026-11-24",
+  "disclaimer": "Scheme rules, amounts and deadlines change. Always confirm on the official portal, at your bank, Raitha Samparka Kendra, Common Service Centre (CSC) or Krishi Vigyan Kendra before applying.",
+  "schemes": [
+    {
+      "id": "pm-kisan",
+      "name": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+      "category": "Income support",
+      "ministry": "Ministry of Agriculture & Farmers Welfare",
+      "benefit": "₹6,000 per year paid in three equal instalments of ₹2,000 by Direct Benefit Transfer (DBT) to the Aadhaar-seeded bank account of eligible landholding farmer families.",
+      "eligibility": [
+        "Landholding farmer family (husband, wife and minor children) with cultivable land recorded in State/UT land records.",
+        "Land ownership records are verified; land acquired after 01-02-2019 is under special scrutiny.",
+        "Excluded: institutional landholders; families where a member is or was a constitutional post holder, minister, MP/MLA, mayor or district panchayat chairperson; serving or retired government employees (except Group D / multi-tasking staff); pensioners with monthly pension ≥ ₹10,000 (except Group D); income-tax payers in the last assessment year; registered doctors, engineers, lawyers, chartered accountants and architects practising professionally."
+      ],
+      "documents": ["Aadhaar", "Land records (RTC/Pahani in Karnataka)", "Aadhaar-seeded bank account", "Mobile number"],
+      "how_to_apply": [
+        "Register on pmkisan.gov.in (New Farmer Registration) or through a CSC / village agriculture officer.",
+        "Complete e-KYC (OTP, face authentication in the PM-KISAN app, or biometric at a CSC) — mandatory for receiving instalments.",
+        "Check beneficiary status on the portal using Aadhaar or registration number."
+      ],
+      "official_url": "https://pmkisan.gov.in",
+      "sources": ["https://pmkisan.gov.in", "https://www.drishtiias.com/daily-updates/daily-news-analysis/24th-instalment-of-pm-kisan-1"]
+    },
+    {
+      "id": "pmfby",
+      "name": "PMFBY (Pradhan Mantri Fasal Bima Yojana) — crop insurance",
+      "category": "Insurance",
+      "ministry": "Ministry of Agriculture & Farmers Welfare",
+      "benefit": "Insurance cover for yield loss from natural calamities, pests and diseases, prevented sowing, localised risks and post-harvest losses. Farmer premium is capped at 2% of sum insured for Kharif food and oilseed crops, 1.5% for Rabi food and oilseed crops, and 5% for annual commercial/horticultural crops; the rest is paid by Central and State governments (50:50; 90:10 in North-Eastern and Himalayan states).",
+      "eligibility": [
+        "All farmers, including sharecroppers and tenant farmers, growing notified crops in notified areas.",
+        "Voluntary for all farmers since Kharif 2020 (loanee farmers can opt out through their bank)."
+      ],
+      "documents": ["Aadhaar", "Bank account details", "Land records or tenancy/sowing certificate", "Sowing declaration"],
+      "how_to_apply": [
+        "Enrol through your bank, CSC, insurance company agent or the National Crop Insurance Portal (pmfby.gov.in) before the seasonal cut-off date notified for your district (typically July for Kharif and December for Rabi).",
+        "Report localised loss (e.g. hailstorm, inundation) to the insurer, bank or agriculture department within 72 hours, e.g. through the Crop Insurance app."
+      ],
+      "official_url": "https://pmfby.gov.in",
+      "sources": ["https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/aug/doc_9735_20260829_18493301.pdf", "https://mygov.in/campaigns/pmfby"]
+    },
+    {
+      "id": "kcc",
+      "name": "Kisan Credit Card (KCC) with Modified Interest Subvention Scheme",
+      "category": "Credit",
+      "ministry": "Ministry of Agriculture & Farmers Welfare / RBI / NABARD",
+      "benefit": "Revolving short-term credit for crop cultivation, post-harvest expenses and allied activities (animal husbandry, dairy, fisheries). Under the Modified Interest Subvention Scheme (MISS) crop loans are given at 7% per year, and farmers who repay promptly get a further 3% Prompt Repayment Incentive — an effective rate of 4%. The Union Budget 2025-26 announced raising the MISS loan limit from ₹3 lakh to ₹5 lakh; check with your bank how this applies to your account.",
+      "eligibility": [
+        "Owner-cultivators, tenant farmers, oral lessees, sharecroppers, and self-help groups or joint liability groups of farmers.",
+        "Farmers engaged in animal husbandry and fisheries are also eligible."
+      ],
+      "documents": ["Application form", "Identity and address proof (Aadhaar)", "Land records / tenancy proof", "Passport photograph", "Cropping pattern details"],
+      "how_to_apply": [
+        "Apply at any commercial bank, regional rural bank or cooperative bank branch, or through the bank's online portal.",
+        "The credit limit is fixed from the scale of finance for your crops and your land area."
+      ],
+      "official_url": "https://www.myscheme.gov.in/schemes/kcc",
+      "sources": ["https://pib.gov.in/PressReleasePage.aspx?PRID=2099696", "https://pib.gov.in/PressReleasePage.aspx?PRID=2132139"]
+    },
+    {
+      "id": "pmksy-pdmc",
+      "name": "PMKSY – Per Drop More Crop (micro-irrigation)",
+      "category": "Irrigation",
+      "ministry": "Ministry of Agriculture & Farmers Welfare",
+      "benefit": "Financial assistance for drip and sprinkler irrigation: 55% of the unit cost for small and marginal farmers and 45% for other farmers, for up to 5 hectares per beneficiary. Many states, including Karnataka, add a top-up subsidy.",
+      "eligibility": [
+        "Farmers with their own land (or lease agreement where allowed) and a water source.",
+        "Small and marginal farmers receive the higher assistance rate."
+      ],
+      "documents": ["Aadhaar", "Land records (RTC)", "Bank details", "Water source proof", "Quotation/design from a registered micro-irrigation company"],
+      "how_to_apply": [
+        "Apply through the State horticulture or agriculture department (in Karnataka, through the Raitha Samparka Kendra / horticulture office or the state online portal).",
+        "A registered supplier prepares the design and installs; subsidy is released after field verification."
+      ],
+      "official_url": "https://pmksy.gov.in",
+      "sources": ["https://www.myscheme.gov.in/schemes/pmksypdmc", "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/aug/doc_9732_20260829_12330401.pdf"]
+    },
+    {
+      "id": "soil-health-card",
+      "name": "Soil Health Card Scheme",
+      "category": "Soil",
+      "ministry": "Ministry of Agriculture & Farmers Welfare",
+      "benefit": "Free soil testing of farm samples with a card reporting 12 parameters (N, P, K, S, Zn, Fe, Cu, Mn, B, pH, EC, organic carbon) and crop-wise fertiliser and amendment recommendations.",
+      "eligibility": ["All farmers."],
+      "documents": ["Farmer details and survey number of the plot"],
+      "how_to_apply": [
+        "Soil samples are collected by the agriculture department in campaign mode; you can also contact the nearest soil testing laboratory or Raitha Samparka Kendra.",
+        "Download your card from the Soil Health Card portal."
+      ],
+      "official_url": "https://soilhealth.dac.gov.in",
+      "sources": ["https://soilhealth.dac.gov.in"]
+    },
+    {
+      "id": "enam",
+      "name": "e-NAM (National Agriculture Market)",
+      "category": "Marketing",
+      "ministry": "Ministry of Agriculture & Farmers Welfare (SFAC)",
+      "benefit": "Online trading platform linking APMC mandis so farmers can sell to buyers beyond their local market with transparent price discovery and online payment.",
+      "eligibility": ["Farmers, FPOs and traders registered on the e-NAM portal or at an e-NAM-integrated APMC."],
+      "documents": ["Aadhaar", "Bank account details", "Mobile number"],
+      "how_to_apply": ["Register at enam.gov.in or the e-NAM mobile app, or at the e-NAM help desk of an integrated mandi."],
+      "official_url": "https://enam.gov.in",
+      "sources": ["https://enam.gov.in"]
+    },
+    {
+      "id": "aif",
+      "name": "Agriculture Infrastructure Fund (AIF)",
+      "category": "Credit / Infrastructure",
+      "ministry": "Ministry of Agriculture & Farmers Welfare",
+      "benefit": "Medium to long-term loans for post-harvest management and community farming assets (warehouses, cold storage, sorting/grading units, primary processing) with 3% per year interest subvention for up to 7 years on loans up to ₹2 crore, plus credit guarantee cover (CGTMSE / NABSanrakshan) for loans up to ₹2 crore. It is not a grant.",
+      "eligibility": ["Farmers, FPOs, PACS, self-help groups, joint liability groups, cooperatives, agri-entrepreneurs and start-ups."],
+      "documents": ["Detailed project report", "KYC", "Land documents", "Bank account"],
+      "how_to_apply": ["Apply on agriinfra.dac.gov.in and choose a participating lending institution."],
+      "official_url": "https://agriinfra.dac.gov.in",
+      "sources": ["https://myscheme.gov.in/schemes/aif", "https://eparlib.sansad.in/bitstream/123456789/2989215/1/AU325_6jjN7F.pdf"]
+    },
+    {
+      "id": "pm-kmy",
+      "name": "PM-KMY (Pradhan Mantri Kisan Maan-Dhan Yojana) — farmer pension",
+      "category": "Social security",
+      "ministry": "Ministry of Agriculture & Farmers Welfare",
+      "benefit": "Minimum assured pension of ₹3,000 per month after age 60. The farmer contributes ₹55–₹200 per month depending on entry age and the Central Government contributes an equal amount. The spouse is entitled to 50% as family pension.",
+      "eligibility": [
+        "Small and marginal farmers owning up to 2 hectares of cultivable land as per State/UT land records.",
+        "Entry age 18 to 40 years.",
+        "Excluded: those covered by other statutory social security schemes (NPS, ESIC, EPFO) and higher-income categories as per scheme guidelines."
+      ],
+      "documents": ["Aadhaar", "Savings bank account / PM-KISAN account", "Land records"],
+      "how_to_apply": ["Enrol at a Common Service Centre (CSC) or on maandhan.in."],
+      "official_url": "https://maandhan.in",
+      "sources": ["https://en.vikaspedia.in/agriculture/agri-insurance/pm-kisan-maandhan-yojana", "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/jan/doc20221185101.pdf"]
+    }
+  ]
+}

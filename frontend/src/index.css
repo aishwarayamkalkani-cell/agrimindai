@@ -1,0 +1,93 @@
+@import "@fontsource-variable/bricolage-grotesque";
+@import "@fontsource-variable/public-sans";
+@import "@fontsource/noto-sans-kannada/400.css";
+@import "@fontsource/noto-sans-kannada/600.css";
+@import "@fontsource/noto-sans-devanagari/400.css";
+@import "@fontsource/noto-sans-devanagari/600.css";
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-display: "Bricolage Grotesque Variable", "Noto Sans Kannada", "Noto Sans Devanagari", system-ui, sans-serif;
+  --font-sans: "Public Sans Variable", "Noto Sans Kannada", "Noto Sans Devanagari", system-ui, sans-serif;
+
+  --color-navy-950: #0c1626;
+  --color-navy-900: #14233a;
+  --color-navy-800: #1d3150;
+  --color-navy-700: #2a4268;
+  --color-leaf-700: #1f5e3a;
+  --color-leaf-600: #2f7d4f;
+  --color-leaf-500: #3b9963;
+  --color-shoot: #a9d18e;
+  --color-soil-700: #5e4329;
+  --color-soil-500: #7a5a3a;
+  --color-soil-100: #efe6da;
+  --color-turmeric: #d9a21b;
+  --color-paper: #fbfcf8;
+}
+
+:root {
+  --bg: #f3f6f1;
+  --surface: #ffffff;
+  --surface-2: #f6f8f4;
+  --line: #dfe6dc;
+  --ink: #14233a;
+  --muted: #5a6b62;
+  color-scheme: light;
+}
+.dark {
+  --bg: #0c1626;
+  --surface: #13213a;
+  --surface-2: #182a47;
+  --line: #263b5c;
+  --ink: #e8efe9;
+  --muted: #9fb1a8;
+  color-scheme: dark;
+}
+
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3 { font-family: var(--font-display); letter-spacing: -0.015em; line-height: 1.15; }
+
+.surface { background: var(--surface); border: 1px solid var(--line); }
+.surface-2 { background: var(--surface-2); }
+.line { border-color: var(--line); }
+.muted { color: var(--muted); }
+.ink { color: var(--ink); }
+
+:focus-visible { outline: 2.5px solid var(--color-leaf-500); outline-offset: 2px; border-radius: 6px; }
+
+/* furrow contour pattern — the one decorative motif, used in the sidebar and dashboard field strip */
+.furrows {
+  background-image: repeating-radial-gradient(ellipse at 110% 120%, transparent 0 22px, rgba(169, 209, 142, 0.10) 22px 23px);
+}
+
+.prose-agri { line-height: 1.6; }
+.prose-agri p { margin: 0.45em 0; }
+.prose-agri ul, .prose-agri ol { margin: 0.4em 0 0.4em 1.25em; }
+.prose-agri ul { list-style: disc; }
+.prose-agri ol { list-style: decimal; }
+.prose-agri h1, .prose-agri h2, .prose-agri h3 { font-size: 1.02em; margin: 0.8em 0 0.3em; font-weight: 650; }
+.prose-agri strong { font-weight: 650; }
+.prose-agri blockquote { border-left: 3px solid var(--color-shoot); padding-left: 0.75em; color: var(--muted); margin: 0.4em 0; }
+.prose-agri table { border-collapse: collapse; margin: 0.5em 0; font-size: 0.92em; }
+.prose-agri td, .prose-agri th { border: 1px solid var(--line); padding: 4px 8px; }
+.prose-agri code { background: var(--surface-2); padding: 1px 5px; border-radius: 4px; font-size: 0.9em; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+@keyframes grow { from { transform: scaleY(0.2); opacity: 0; } to { transform: scaleY(1); opacity: 1; } }
+.sprout { transform-origin: bottom; animation: grow 0.9s cubic-bezier(.2,.8,.2,1) both; }
+@keyframes pulse-dot { 0%, 100% { opacity: .3 } 50% { opacity: 1 } }
+.typing span { animation: pulse-dot 1.2s infinite; }
+.typing span:nth-child(2) { animation-delay: .2s } .typing span:nth-child(3) { animation-delay: .4s }

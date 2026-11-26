@@ -1,0 +1,15 @@
+# Secrets and local data - never commit these
+.env
+backend/.env
+backend/storage/
+backend/grok_integration_report.md
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+frontend/node_modules/

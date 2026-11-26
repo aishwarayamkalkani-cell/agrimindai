@@ -1,0 +1,1 @@
+import{I as e,N as t}from"./index-DxUM8BYT.js";import{L as n,t as r}from"./CartesianChart-EHE3Ud-X.js";var i=e(t()),a=[`axis`,`item`],o=(0,i.forwardRef)((e,t)=>i.createElement(r,{chartName:`BarChart`,defaultTooltipEventType:`axis`,validateTooltipEventTypes:a,tooltipPayloadSearcher:n,categoricalChartProps:e,ref:t}));export{o as t};
